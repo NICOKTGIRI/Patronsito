@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Patrones De Diseño</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			
+				
+			<section><a href="https://es.wikipedia.org/wiki/Patrón_de_diseño">
+				<img src="https://scontent.fbog3-1.fna.fbcdn.net/v/t1.6435-9/117387421_183427829837460_6419369328557154213_n.png?stp=dst-png_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=8t8e3dIwejsAX-qKddK&_nc_ht=scontent.fbog3-1.fna&oh=00_AfChGzvz7FcHuhttrz4L3exVu8CVed4DP_3LUR-5YIs-Og&oe=65305BBB" alt="Patrones De Diseño" style= " height: 450px; margin: 10 auto 4rem auto; background: transparent;" class="demo-logo">
+			</a>
+				<h5>Presentacion Patrones De Diseño</h5>
+			                                       
+				<h4>Nicolas Velasquez Andrade</h4>  </section>
+				
+				
+			</section>
+			
+			
+					<section data-background-color="#6a697d"><h2 style="color: black;">Patrones estructurales</h2>
+					
+					<p>Los patrones estructurales son soluciones reutilizables para problemas comunes de diseño de software que se centran en cómo las clases y objetos se relacionan y componen para formar estructuras más grandes y complejas en una aplicación. Estos patrones ayudan a mejorar la organización y la flexibilidad del código. Ejemplos incluyen el patrón Adapter, Composite y Bridge, entre otros.</p>
+					
+					</section>
+					
+						<section data-background-color="#0fd2cb">  <img src="imgs/ADAPTER.png" style="height: 300px;">
+							<h2 style="color: gray;">Adapter</h2>
+						<p>El patrón estructural Adapter permite que dos interfaces incompatibles trabajen juntas al proporcionar una interfaz intermedia que traduce las solicitudes de una interfaz a otra.  </p>
+						</section>
+							<section data-background-color="#0fd2cb">  <img src="imgs/BRIDGE.png" style="height: 300px;">
+								<h2 style="color: gray;">Bridge</h2>
+							<p>El patrón estructural Bridge separa una abstracción de su implementación, permitiendo que ambas evolucionen independientemente. Esto mejora la flexibilidad y la extensibilidad del diseño de software. </p>
+							</section>
+								<section data-background-color="#0fd2cb">  <img src="imgs/COMPOSITE.png" style="height: 300px;">
+									<h2 style="color: gray;">Composite</h2>
+								<p>El patrón estructural Composite permite componer objetos en una estructura de árbol para representar jerarquías de objetos de manera uniforme, tratando objetos individuales y composiciones de objetos de la misma manera. </p>
+								</section>
+									<section data-background-color="#0fd2cb">  <img src="imgs/DECORATOR.png" style="height: 300px;">
+										<h2 style="color: gray;">Decorator</h2>
+									<p>El patrón estructural Decorator actúa como una envoltura flexible alrededor de un objeto, permitiendo agregar comportamiento o características adicionales sin modificar su código fuente. </p>
+									</section>
+										<section data-background-color="#0fd2cb">  <img src="imgs/FACADE.png" style="height: 350px;">
+											<h2 style="color: gray;">Facade</h2>
+										<p>El patrón estructural Facade proporciona una interfaz simplificada y unificada para un conjunto de subsistemas o clases, facilitando el uso de estos sistemas de manera más sencilla y ordenada.</p>
+										</section>
+											<section data-background-color="#0fd2cb">  <img src="imgs/FLYWEIGHT.png	" style="height: 280px;">
+												<h2 style="color: gray;">Flyweight</h2>
+											<p>El patrón estructural Flyweight se utiliza para minimizar el uso de memoria o recursos compartiendo eficientemente objetos similares y reduciendo la duplicación, lo que es útil en situaciones donde se manejan grandes cantidades de objetos similares. </p>
+											</section>
+												<section data-background-color="#0fd2cb">  <img src="imgs/PROXY.png" style="height: 300px;">
+													<h2 style="color: gray;">Proxy</h2>
+												<p>El patrón estructural Proxy actúa como un intermediario para controlar el acceso a un objeto o recurso, permitiendo agregar funcionalidades como lazy loading, control de acceso o monitoreo sin modificar el objeto original.</p>
+												</section>
+
+												
+													<section data-background-color="#cde985"><h2 style="color: red;">Patrones Creacionales</h2>
+													<p>Los patrones creacionales son un conjunto de patrones de diseño en programación que se utilizan para la creación de objetos de manera flexible y eficiente, abstrayendo los detalles de cómo se instancian y se relacionan las clases. Estos patrones se centran en la creación de objetos, lo que ayuda a gestionar la complejidad de la creación de objetos en una aplicación.</p>
+													</section>
+												
+												   <section data-background-color="#cde985" ><img src="imgs/FACTORYMETHOD.png" style="height: 280px;">
+													<h2 style="color: red;">Factory Method</h2>
+												<p>El patrón creacional Factory Method define una interfaz para crear objetos, pero permite que las subclases decidan qué clase concreta instanciar. Esto proporciona flexibilidad para crear objetos de diferentes tipos dentro de una misma jerarquía de clases.</p>
+												</section>
+												<section data-background-color="#cde985" ><img src="imgs/ABSTRACTFACTORY.png" style="height: 280px;">
+													<h2 style="color: red;">Abstract Factory</h2>
+												<p>El patrón creacional Abstract Factory proporciona una interfaz para crear familias de objetos relacionados sin especificar sus clases concretas, permitiendo que un cliente cree objetos de manera coherente y flexible sin preocuparse por los detalles de implementación.</p>
+												</section>
+												                    
+																<section data-background-color="#cde985">  <img src="imgs/PROTOTYPE.png" style="height: 300px;">
+																	<h2 style="color: red;">Prototype</h2>
+																<p>El patrón creacional Prototype permite crear nuevos objetos duplicando un prototipo existente, lo que facilita la creación de objetos complejos y costosos, minimizando la duplicación de código y la carga en el rendimiento.</p>
+																</section>
+																
+																	
+																		<section data-background-color="#cde985">  <img src="imgs/SINGLETON.png" style="height: 280px;">
+																			<h2 style="color: red;">Singleton</h2>
+																		<p>El patrón creacional Singleton asegura que una clase tenga una única instancia y proporciona un punto de acceso global a esa instancia, lo que garantiza que haya una única instancia de la clase en todo el programa.</p>
+								
+																		</section>
+									
+					  </section>
+					  
+					  <section>
+						<h2>Patrones De Comportamiento</h2>
+						<h3>¿Que Es Patron De Comportamiento?</h3>
+						<p>Los patrones de comportamiento son un conjunto de patrones de diseño en programación que se utilizan para gestionar la comunicación y el comportamiento entre objetos y clases. Estos patrones se centran en cómo los objetos interactúan y colaboran entre sí para lograr un comportamiento deseado en una aplicación.</p>
+						</section>
+						
+							
+								<section data-background-color="#6b6b6b">  <img src="imgs/COMMAND.png" style="height: 250px;">
+									<h3 style="color: white;">Command</h3>
+								<p>El patrón de comportamiento Command encapsula una solicitud como un objeto, permitiendo que los clientes parametricen las solicitudes, las encole o registren y admitan operaciones reversibles, lo que brinda flexibilidad y control en la ejecución de comandos. </p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/CHAINOFRES.png" style="height: 250px;">
+									<h3 style="color: white;">Chain of Responsability</h3>
+								<p>El patrón Chain of Responsibility permite pasar una solicitud a través de una cadena de objetos para que cada uno decida si la maneja o la pasa al siguiente.</p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/mediator.png" style="height: 250px;">
+									<h3 style="color: white;">Mediator</h3>
+								<p>El patrón de comportamiento Mediator centraliza la comunicación entre objetos, evitando que interactúen directamente. En lugar de comunicarse entre sí, los objetos se comunican a través del mediador, lo que reduce las dependencias y mejora la modularidad.</p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/iterator.png" style="height: 250px;">
+									<h3 style="color: white;">Iterator</h3>
+								<p>El patrón de comportamiento Iterator proporciona una forma de acceder a elementos de una colección secuencial sin exponer su estructura interna, permitiendo recorrer la colección de manera uniforme y eficiente.</p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/memento.png" style="height: 250px;">
+									<h3 style="color: white;">Memento</h3>
+								<p>El patrón de comportamiento Memento permite capturar y restaurar el estado interno de un objeto sin revelar detalles de su implementación, lo que facilita la reversión o restauración de un objeto a un estado anterior.</p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/ob.png" style="height: 250px;">
+									<h3 style="color: white;">Observer</h3>
+								<p>El patrón de comportamiento Observer permite que un objeto (el sujeto) notifique automáticamente a otros objetos (los observadores) cuando cambia su estado, lo que permite una relación de dependencia flexible entre ellos.</p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/state.png" style="height: 250px;">
+									<h3 style="color: white;">State</h3>
+								<p>El patrón de comportamiento State permite que un objeto cambie su comportamiento cuando su estado interno cambia, creando una máquina de estados que gestiona las transiciones y acciones asociadas a cada estado.</p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/strategy.png" style="height: 250px;">
+									<h3 style="color: white;">Strategy</h3>
+								<p>El patrón de comportamiento Strategy permite definir un conjunto de algoritmos intercambiables y encapsulados, que pueden ser intercambiados de manera dinámica en un objeto. Esto permite que un objeto varíe su comportamiento sin cambiar su estructura.</p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/template.png" style="height: 250px;">
+									<h3 style="color: white;">Template Method</h3>
+								<p>El patrón de comportamiento Template Method define la estructura de un algoritmo en una clase base, permitiendo que las subclases implementen ciertos pasos específicos de ese algoritmo, manteniendo el orden y la estructura general inalterados.</p>
+								</section>
+								<section data-background-color="#6b6b6b">  <img src="imgs/visitor.png" style="height: 250px;">
+									<h3 style="color: white;">Visitor</h3>
+								<p>El patrón de comportamiento Visitor permite agregar operaciones o comportamientos adicionales a objetos de una estructura de clases sin modificar esas clases, al permitir que se agreguen visitantes externos que interactúen con los objetos.</p>
+								</section>
+				<section data-background-color="#585b51"><h1>Muchas Gracias Por su Atencion</h1></section>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
